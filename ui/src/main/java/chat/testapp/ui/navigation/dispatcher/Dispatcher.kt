@@ -8,6 +8,7 @@ package chat.testapp.ui.navigation.dispatcher
 
 import android.util.Log
 import chat.testapp.ui.navigation.dispatcher.StackFlag.*
+
 /**
  * Dispatcher - an interface that handles page change action from
  * view model and process page changing (replace fragment in this case)
@@ -39,10 +40,8 @@ enum class StackFlag {
  * **/
 class DestinationStack {
     private val destinations: MutableList<IDestination> = mutableListOf()
-    var isEmpty: Boolean = true
-        get () = destinations.isEmpty()
-    var allDestinations: List<IDestination> = listOf()
-        get() = destinations.toList()
+    val isEmpty: Boolean get () = destinations.isEmpty()
+    val allDestinations: List<IDestination> get() = destinations.toList()
 
     fun pushDestination(destination: IDestination) {
         val address = destination
