@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTextPrimary">#404040</color>
+    <color name="colorTextSecondary">#2378F0</color>
+    <color name="colorTextInfo">#C0C0C0</color>
+    <color name="colorTextHint">#8E8E93</color>
+
+    <color name="colorDivider">#c3565555</color>
+
+    <color name="colorIconTint">@color/colorTextSecondary</color>
+    <color name="colorEditTextBackground">#0c8e8e93</color>
+    <color name="colorEditTextBorder">#979797</color>
+
+    <color name="colorTextPrimaryDark">#a5a5ab</color>
+    <color name="colorTextSecondaryDark">#646469</color>
+    <color name="colorIconTintDark">#a5a5ab</color>
+    <color name="colorEditTextBackgroundDark">#063048</color>
+    <color name="colorEditTextBorderDark">#544949</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">@android:color/black</color>
+    <color name="colorDarkBlue">#011c2b</color>
+    <color name="colorBurgundy">#991e48</color>
+    <color name="colorRed">#ff0000</color>
+
+</resources>

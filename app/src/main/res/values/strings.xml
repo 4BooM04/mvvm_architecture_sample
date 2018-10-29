@@ -1,0 +1,9 @@
+<resources>
+    <string name="appName">testapp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="SplashPage_appName">Welcome to testapp</string>
+    <string name="SplashPage_continue">Continue</string>
+</resources>
